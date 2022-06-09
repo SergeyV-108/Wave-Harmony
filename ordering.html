@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Инструкция для IE старой версии -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Wave Harmony</title>
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!-- header -->
+
+		<header class="header">
+			<div class="header__inner inner-header">
+				<div class="inner-header__cover"></div>
+				<div class="container">
+					<div class="inner-header__upper upper-header">
+						<div class="upper-header__call">
+							<a href="tel:88005113639" class="upper-header__phone">8 (800) 511 36 39</a>
+							<span class="upper-header__text"> — бесплатно по России</span>
+						</div>
+						<div class="upper-header__logo">
+							<a href="index.html"><img src="image/header/LOGO.svg" alt="logo"></a>
+						</div>
+						<div class="upper-header__buttons">
+							<form class="upper-header__search">
+								<input type="search" class="upper-header__input" placeholder="Найти...">
+								<button type="submit" class="upper-header__button">
+									<i class='fas fa-search'></i>
+								</button>
+							</form>
+							<button type="button" class="upper-header__btn upper-header__btn_search">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-search" viewBox="0 0 16 16">
+									<path
+										d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+								</svg>
+							</button>
+							<a href="#" class="upper-header__btn upper-header__btn_heart">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-heart"
+									viewBox="0 0 16 16">
+									<path
+										d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+										fill="#000000">
+									</path>
+								</svg>
+								<span></span>
+							</a>
+							<img src="image/header/logo_mob.svg" alt="logo">
+							<a href="ordering.html" class="upper-header__btn upper-header__btn_bag">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag"
+									viewBox="0 0 16 16">
+									<path
+										d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+										fill="#000000">
+									</path>
+								</svg>
+								<span></span>
+							</a>
+						</div>
+						<div class="menu-header__burger burger-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="inner-header__lower lower-header">
+						<div class="lower-header__body body-lower">
+							<div class="body-lower__title">Меню<span>&times;</span></div>
+							<nav class="body-lower__menu menu-header">
+								<ul class="menu-header__list">
+									<li><a href="catalog.html" class="menu-header__link">Каталог<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="brand.html" class="menu-header__link">О бренде<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="dimensions.html" class="menu-header__link">Размеры<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="delivery.html" class="menu-header__link">Доставка и оплата<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="#" class="menu-header__link">Отзывы<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="create.html" class="menu-header__link">Создай свой купальник<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="certificates.html" class="menu-header__link">Сертификаты<img
+												src="image/header/gift.svg" alt=""><i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="blog.html" class="menu-header__link">Блог<i class='fas fa-chevron-right'></i></a></li>
+									<li><a href="contacts.html" class="menu-header__link">Контакты<i class='fas fa-chevron-right'></i></a></li>
+								</ul>
+								<button class="menu-header__button">...</button>
+								<ul class="menu-header__sublist"></ul>
+							</nav>
+							<div class="body-lower__box"><a href="#" class="body-lower__sale">Распродажа до -40%</a>
+							</div>
+							<div class="body-lower__mobile-box mobile-box">
+								<div><a href="mailto:zakaz@waveharmony.com"
+										class="mobile-box__email">zakaz@waveharmony.com</a></div>
+								<div><a href="tel:88005113639" class="mobile-box__phone">8 (800) 511-36-39</a></div>
+								<div class="mobile-box__social social-mobile-box">
+									<ul class="social-mobile-box__list">
+										<li>
+											<a href="#" class="social-mobile-box__link"><i class='fab fa-vk'></i></a>
+										</li>
+										<li>
+											<a href="#" class="social-mobile-box__link"><svg display="none">
+													<symbol id="icon-1" viewBox="0 0 24 24"
+														xmlns="http://www.w3.org/2000/svg">
+														<g>
+															<path fill="none" d="M0 0h24v24H0z" />
+															<path fill-rule="nonzero"
+																d="M2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308a.961.961 0 0 0-.371.1 1.293 1.293 0 0 0-.294.228c-.12.113-.188.211-.261.306A2.729 2.729 0 0 0 6.9 9.62c.002.49.13.967.33 1.413.409.902 1.082 1.857 1.971 2.742.214.213.423.427.648.626a9.448 9.448 0 0 0 3.84 2.046l.569.087c.185.01.37-.004.556-.013a1.99 1.99 0 0 0 .833-.231c.166-.088.244-.132.383-.22 0 0 .043-.028.125-.09.135-.1.218-.171.33-.288.083-.086.155-.187.21-.302.078-.163.156-.474.188-.733.024-.198.017-.306.014-.373-.004-.107-.093-.218-.19-.265l-.582-.261s-.87-.379-1.401-.621a.498.498 0 0 0-.177-.041.482.482 0 0 0-.378.127v-.002c-.005 0-.072.057-.795.933a.35.35 0 0 1-.368.13 1.416 1.416 0 0 1-.191-.066c-.124-.052-.167-.072-.252-.109l-.005-.002a6.01 6.01 0 0 1-1.57-1c-.126-.11-.243-.23-.363-.346a6.296 6.296 0 0 1-1.02-1.268l-.059-.095a.923.923 0 0 1-.102-.205c-.038-.147.061-.265.061-.265s.243-.266.356-.41a4.38 4.38 0 0 0 .263-.373c.118-.19.155-.385.093-.536-.28-.684-.57-1.365-.868-2.041-.059-.134-.234-.23-.393-.249-.054-.006-.108-.012-.162-.016a3.385 3.385 0 0 0-.403.004z" />
+														</g>
+													</symbol>
+												</svg>
+												<svg class="whatsapp">
+													<use xlink:href="#icon-1"></use>
+												</svg></a>
+										</li>
+										<li>
+											<a href="#" class="social-mobile-box__link"><i
+													class='fab fa-facebook-f'></i></a>
+										</li>
+										<li>
+											<a href="#" class="social-mobile-box__link"><i
+													class='fab fa-instagram'></i></a>
+										</li>
+									</ul>
+								</div>
+								<div class="mobile-box__banner">Новая<br> коллекция<br> 2021 уже<br> в каталоге!</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__submenu submenu-header">
+					<div class="container">
+						<div class="submenu-header__inner">
+							<div class="submenu-header__items">
+								<div class="submenu-header__item item-submenu">
+									<div class="item-submenu__title">Купальники</div>
+									<ul class="item-submenu__list">
+										<li><a href="catalog.html" class="item-submenu__link">Все купальники</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Для серфинга</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Слитные</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Раздельные</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">С рукавами</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Без рукавов</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">С чашечками</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">С шортиками</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Для беременных</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Солнцезащитные</a></li>
+										<li><a href="catalog.html" class="item-submenu__link">Лосины и легинсы</a></li>
+									</ul>
+								</div>
+								<div class="submenu-header__item item-submenu">
+									<div class="item-submenu__title">Комбинезоны</div>
+									<ul class="item-submenu__list">
+										<li><a href="#" class="item-submenu__link">Все комбинезоны</a></li>
+									</ul>
+								</div>
+								<div class="submenu-header__item item-submenu">
+									<div class="item-submenu__title">Гидрокостюмы</div>
+									<ul class="item-submenu__list">
+										<li><a href="#" class="item-submenu__link">Все идрокостюмы</a></li>
+									</ul>
+								</div>
+								<div class="submenu-header__item item-submenu">
+									<div class="item-submenu__title">Косметика</div>
+									<ul class="item-submenu__list">
+										<li><a href="#" class="item-submenu__link">Вся косметика</a></li>
+										<li><a href="#" class="item-submenu__link">Серф-цинк</a></li>
+										<li><a href="#" class="item-submenu__link">Бальзам для губ от солнца</a></li>
+										<li><a href="#" class="item-submenu__link">Косметические средства</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="submenu-header__cards">
+								<div class="submenu-header__card submenu-header__card_left card-submenu">
+									<div class="card-submenu__text card-submenu__text_round">
+										<div class="card-submenu__disk">
+											<p>Н</p>
+											<p>о</p>
+											<p>в</p>
+											<p>а</p>
+											<p>я</p>
+											<p>к</p>
+											<p>о</p>
+											<p>л</p>
+											<p>л</p>
+											<p>е</p>
+											<p>к</p>
+											<p>ц</p>
+											<p>и</p>
+											<p>я</p>
+											<p><span>1</span></p>
+											<p><span>2</span></p>
+											<p><span>0</span></p>
+											<p><span>2</span></p>
+										</div>
+									</div>
+									<div class="card-submenu__button card-submenu__button_left section-button"><a
+											href="#">Смотреть</a></div>
+								</div>
+								<div class="submenu-header__card submenu-header__card_right card-submenu">
+									<div class="card-submenu__text">Индивидуальный пошив купальника за 3 дня!</div>
+									<div class="card-submenu__button card-submenu__button_right section-button"><a
+											href="#">Узнать больше</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- page -->
+
+		<main class="page">
+
+			<!-- ordering-page-->
+
+			<div class="page__ordering ordering-page">
+				<div class="container">
+					<div class="ordering-page__inner">
+						<nav class="ordering-page__breadcrumbs breadcrumbs">
+							<ul class="breadcrumbs__list">
+								<li><a href="index.html" class="breadcrumbs__link">Главная </a></li>
+								<li><span>/ Оформление заказа</span></li>
+							</ul>
+						</nav>
+						<form class="ordering-page__form">
+							<div class="ordering-page__items">
+								<section class="ordering-page__item item-ordering">
+									<h1 class="item-ordering__title section-title">Ваш заказ</h1>
+									<div class="ordering-page__cards">
+										<div class="ordering-page__card card-ordering">
+											<div class="card-ordering__image">
+												<img src="image/page/popular/photo_8.jpg" alt="">
+											</div>
+											<div class="card-ordering__content">
+												<div class="card-ordering__title">Moana Neon</div>
+												<div class="card-ordering__size">Размер: S - 42/44</div>
+												<div class="card-ordering__price"><span>4500</span> руб.</div>
+												<div class="card-ordering__number">
+													<div class="card-ordering__quantity quantity-ordering">
+														<div data-counter
+															class="quantity-ordering__button quantity-ordering__button_minus">
+															<span>-</span>
+														</div>
+														<div class="quantity-ordering__input">
+															<input autocomplete="off" value="1" type="text"
+																name="form[]">
+															<span>шт.</span>
+														</div>
+														<div data-counter
+															class="quantity-ordering__button quantity-ordering__button_plus">
+															<span>+</span>
+														</div>
+													</div>
+													<button class="card-ordering__delete" type="button">
+														<i class='far fa-trash-alt'></i>
+													</button>
+												</div>
+											</div>
+										</div>
+										<div class="ordering-page__card card-ordering">
+											<div class="card-ordering__image">
+												<img src="image/page/popular/photo_7.jpg" alt="">
+											</div>
+											<div class="card-ordering__content">
+												<div class="card-ordering__title">Kiana</div>
+												<div class="card-ordering__size">Размер: S - 42/44</div>
+												<div class="card-ordering__price"><span>6600</span> руб.</div>
+												<div class="card-ordering__number">
+													<div class="card-ordering__quantity quantity-ordering">
+														<div data-counter
+															class="quantity-ordering__button quantity-ordering__button_minus">
+															<span>-</span>
+														</div>
+														<div class="quantity-ordering__input">
+															<input autocomplete="off" value="1" type="text"
+																name="form[]">
+															<span>шт.</span>
+														</div>
+														<div data-counter
+															class="quantity-ordering__button quantity-ordering__button_plus">
+															<span>+</span>
+														</div>
+													</div>
+													<button class="card-ordering__delete" type="button">
+														<i class='far fa-trash-alt'></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+								<section class="ordering-page__item ordering-page__item_short item-ordering">
+									<div class="item-ordering__modal modal-ordering">
+										<div class="modal-ordering__card card-modal active" id="login">
+											<div class="card-modal__close">&times;</div>
+											<div class="card-modal__title">Войти</div>
+											<div class="card-modal__subtitle">или <a href="#registration"
+													class="card-modal__link">создать аккаунт</a>
+											</div>
+											<div class="card-modal__form">
+												<div class="card-modal__row form-row">
+													<input id="phone_email" required autocomplete="off">
+													<label for="phone_email">E-mail или
+														телефон<span>*</span></label>
+												</div>
+												<div class="card-modal__row form-row">
+													<i class='fas fa-eye'></i>
+													<input type="password" id="password_login" required
+														autocomplete="off">
+													<label for="password_login">Пароль<span>*</span></label>
+												</div>
+												<div class="card-modal__row card-modal__row_remember">
+													<div class="card-modal__option form-option">
+														<input type="checkbox" name="remember" id="remember" checked>
+														<label for="remember">Запомнить меня</label>
+													</div>
+													<button type="button" class="card-modal__button">Напомнить
+														пароль</button>
+												</div>
+												<button type="submit"
+													class="card-modal__btn card-modal__btn_login">Войти</button>
+											</div>
+										</div>
+										<div class="modal-ordering__card modal-ordering__card_recovery card-modal">
+											<div class="card-modal__close">&times;</div>
+											<div class="card-modal__title">Восстановление пароля</div>
+											<div class="card-modal__text">
+												Если вы забыли пароль, введите ваш E-mail и мы отправим на него
+												временный пароль для входа, в личном кабинете вы всегда сможете поменять
+												пароль на постоянный
+											</div>
+											<div class="card-modal__row form-row">
+												<input id="recovery_email" required autocomplete="off">
+												<label for="recovery_email">E-mail</label>
+											</div>
+											<button type="button"
+												class="card-modal__btn card-modal__btn_recovery">Получить временный
+												пароль</button>
+										</div>
+										<div class="modal-ordering__card modal-ordering__card_sending card-modal">
+											<div class="card-modal__close">&times;</div>
+											<div class="card-modal__title">Восстановление пароля</div>
+											<div class="card-modal__text">Спасибо, временный пароль для входа отправлен
+												на ваш E-mail</div>
+											<div class="card-modal__check-mark card-modal__check-mark_sending">
+												<i class="material-icons">check</i>
+											</div>
+											<button type="button" class="card-modal__btn card-modal__btn_close">Закрыть
+												окно</button>
+										</div>
+										<div class="modal-ordering__card card-modal" id="registration">
+											<div class="card-modal__close">&times;</div>
+											<div class="card-modal__title">Создать аккаунт</div>
+											<div class="card-modal__subtitle">или <a href="#login"
+													class="card-modal__link">войти в
+													существующий</a>
+											</div>
+											<div class="card-modal__form">
+												<div class="card-modal__row form-row">
+													<input type="text" id="name_registration" required
+														autocomplete="off">
+													<label for="name_registration">Имя<span>*</span></label>
+												</div>
+												<div class="card-modal__row form-row">
+													<input type="text" id="surname_registration" required
+														autocomplete="off">
+													<label for="surname_registration">Фамилия<span>*</span></label>
+												</div>
+												<div class="card-modal__row form-row">
+													<input type="email" id="email_registration" required
+														autocomplete="off">
+													<label for="email_registration">E-mail<span>*</span></label>
+												</div>
+												<div class="card-modal__row form-row">
+													<input type="tel" id="tel_registration" required autocomplete="off">
+													<label for="tel_registration">Телефон<span>*</span></label>
+												</div>
+												<div class="card-modal__row form-row">
+													<i class='fas fa-eye'></i>
+													<input type="password" id="password_registration" required
+														autocomplete="off">
+													<label for="password_registration">Пароль<span>*</span></label>
+												</div>
+												<div class="card-modal__row">
+													<div class="card-modal__option form-option">
+														<input type="checkbox" name="subscription" id="subscription"
+															checked>
+														<label for="subscription">Подписаться на новинки и
+															акции</label>
+													</div>
+												</div>
+												<button type="submit"
+													class="card-modal__btn card-modal__btn_registration">Создать
+													аккаунт</button>
+											</div>
+										</div>
+
+										<div class="modal-ordering__card modal-ordering__card_finisher card-modal">
+											<div class="card-modal__close">&times;</div>
+											<div class="card-modal__check-mark">
+												<i class="material-icons">check</i>
+											</div>
+											<div class="card-modal__title card-modal__title_finisher">Вы успешно
+												зарегистрировались, теперь вам доступно:</div>
+											<ol class="card-modal__list">
+												<li>Отслеживание доставки</li>
+												<li>Ускоренное оформление заказа</li>
+												<li>История заказов</li>
+												<li>Управление подписками</li>
+											</ol>
+											<button type="button" class="card-modal__btn card-modal__btn_close">Закрыть
+												окно</button>
+										</div>
+									</div>
+									<div class="item-ordering__header header-item">
+										<button type="button" class="header-item__login">Вход / Регистрация</button>
+										<h1 class="header-item__title section-title">Контактные данные</h1>
+									</div>
+									<div class="item-ordering__contacts contacts-ordering">
+										<div class="contacts-ordering__row">
+											<input type="text" id="surname" required autocomplete="off">
+											<label for="surname">Введите фамилию<span>*</span></label>
+										</div>
+										<div class="contacts-ordering__row">
+											<input type="text" id="name" required autocomplete="off">
+											<label for="name">Введите имя<span>*</span></label>
+										</div>
+										<div class="contacts-ordering__row">
+											<input type="email" id="email-pay" required autocomplete="off">
+											<label for="email-pay">Введите E-mail<span>*</span></label>
+										</div>
+										<div class="contacts-ordering__row">
+											<input type="tel" id="phone" required autocomplete="off">
+											<label for="phone">Введите номер телефона<span>*</span></label>
+										</div>
+									</div>
+								</section>
+								<section class="ordering-page__item item-ordering">
+									<h1 class="item-ordering__title section-title">Способ доставки</h1>
+									<div class="item-ordering__row">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="delivery" id="delivery_1">
+											<label for="delivery_1">Москва в пределах МКАД</label>
+											<span>до 3 дней</span>
+										</p>
+										<p class="item-ordering__option item-ordering__option_sub form-option">доставка
+											нашим
+											курьером
+											<span class="item-ordering__cost">≈ 300 руб</span>
+										</p>
+										<div class="item-ordering__content content-ordering">
+											<p class="content-ordering__row">
+												<input type="text" id="address_1" required autocomplete="off">
+												<label for="address_1">Введите адрес<span>*</span></label>
+											</p>
+											<p class="content-ordering__row">
+												<input type="text" id="street_1" required autocomplete="off">
+												<label for="street_1">Улица / дом / квартира / офис </label>
+											</p>
+										</div>
+									</div>
+									<div class="item-ordering__row">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="delivery" id="delivery_2">
+											<label for="delivery_2">За пределами МКАД</label>
+											<span>до 3 дней</span>
+										</p>
+										<p class="item-ordering__option item-ordering__option_sub form-option">в пешей
+											доступности
+											от
+											метро и МЦД (не более 10 мин. пешком)
+											<span class="item-ordering__cost">≈ 500 руб</span>
+										</p>
+										<div class="item-ordering__content content-ordering">
+											<p class="content-ordering__row">
+												<input type="text" id="address_2" required autocomplete="off">
+												<label for="address_2">Введите адрес<span>*</span></label>
+											</p>
+											<p class="content-ordering__row">
+												<input type="text" id="street_2" required autocomplete="off">
+												<label for="street_2">Улица / дом / квартира / офис </label>
+											</p>
+										</div>
+									</div>
+									<div class="item-ordering__row">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="delivery" id="delivery_3">
+											<label for="delivery_3">Пункты выдачи по России</label>
+											<span>от 3 дней</span>
+										</p>
+										<p class="item-ordering__option item-ordering__option_sub form-option">пункт
+											самовывоза в
+											вашем
+											городе
+											<span>Расчет по адресу</span>
+										</p>
+										<div class="item-ordering__content content-ordering">
+											<p class="content-ordering__row">
+												<input type="text" id="address_3" required autocomplete="off">
+												<label for="address_3">Введите адрес<span>*</span></label>
+											</p>
+											<p class="content-ordering__row">
+												<input type="text" id="street_3" required autocomplete="off">
+												<label for="street_3">Улица / дом / квартира / офис </label>
+											</p>
+										</div>
+									</div>
+									<div class="item-ordering__row">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="delivery" id="delivery_4">
+											<label for="delivery_4">Курьерская доставка по России</label>
+											<span>от 3 дней</span>
+										</p>
+										<p class="item-ordering__option item-ordering__option_sub form-option">
+											курьерской службой
+											лично
+											в руки
+											<span>Расчет по адресу</span>
+										</p>
+										<div class="item-ordering__content content-ordering">
+											<p class="content-ordering__row">
+												<input type="text" id="address_4" required autocomplete="off">
+												<label for="address_4">Введите адрес<span>*</span></label>
+											</p>
+											<p class="content-ordering__row">
+												<input type="text" id="street_4" required autocomplete="off">
+												<label for="street_4">Улица / дом / квартира / офис </label>
+											</p>
+										</div>
+									</div>
+									<div class="item-ordering__row">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="delivery" id="delivery_5">
+											<label for="delivery_5">Доставка по Миру</label>
+											<span>от 3 дней</span>
+										</p>
+										<p class="item-ordering__option item-ordering__option_sub form-option">рассчет
+											стоимости
+											после
+											оформления <span>-</span>
+										</p>
+										<div class="item-ordering__content content-ordering">
+											<p class="content-ordering__row">
+												<input type="text" id="address_5" required autocomplete="off">
+												<label for="address_5">Введите адрес<span>*</span></label>
+											</p>
+											<p class="content-ordering__row">
+												<input type="text" id="street_5" required autocomplete="off">
+												<label for="street_5">Улица / дом / квартира / офис </label>
+											</p>
+										</div>
+									</div>
+								</section>
+								<section class="ordering-page__item item-ordering">
+									<h1 class="item-ordering__title section-title">Способ оплаты</h1>
+									<div class="item-ordering__row item-ordering__row_pay">
+										<p class="item-ordering__option form-option">
+											<input type="radio" name="payment" id="payment_1">
+											<label for="payment_1">Оплатить при получении</label>
+										</p>
+									</div>
+									<div class="item-ordering__row item-ordering__row_pay">
+										<p class="item-ordering__option item-ordering__option_pay form-option">
+											<input type="radio" name="payment" id="payment_2">
+											<label for="payment_2">Оплатить онлайн на сайте</label>
+											<img src="image/page/ordering/payment.svg" alt="">
+										</p>
+									</div>
+								</section>
+								<section class="ordering-page__item item-ordering">
+									<h1 class="item-ordering__title section-title">Комментарий к заказу</h1>
+									<textarea class="item-ordering__text"
+										placeholder="Ваш комментарий тут..."></textarea>
+									<div class="item-ordering__total">
+										<span>Итого к оплате:</span>
+										<span></span>
+									</div>
+								</section>
+							</div>
+							<aside class="ordering-page__total total-ordering">
+								<div class="total-ordering__card card-total">
+									<div class="card-total__title section-title">Итого к оплате</div>
+									<div class="card-total__text card-total__text_promocode">
+										<span>Скидка по промокоду:</span>
+										<span class="card-total__promocost">3490 руб.</span>
+									</div>
+									<div class="card-total__text">
+										<span>Товары на сумму</span>
+										<span class="card-total__cost">26 400 руб.</span>
+									</div>
+									<button type="submit" class="card-total__button section-button">Подтвердить
+										заказ</button>
+									<div class="card-total__subtext">Нажимая кнопку «Подписаться», вы даете согласие
+										на <a href="#">обработку персональных данных</a></div>
+								</div>
+								<div class="total-ordering__promocode promocode-total">
+									<button type="button" class="promocode-total__btn">У меня есть промокод</button>
+									<div class="promocode-total__form form-promocode">
+										<div class="form-promocode__body">
+											<div class="form-promocode__row">
+												<input type="text" id="promocode" required autocomplete="off">
+												<label for="promocode">Промокод</label>
+											</div>
+											<button class="form-promocode__btn" type="button">Применить</button>
+										</div>
+										<div class="form-promocode__tooltip">Промокод не верный или не действительный
+										</div>
+									</div>
+								</div>
+							</aside>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- ordering-page end -->
+
+		</main>
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__newsletter newsletter-footer">
+						<div class="newsletter-footer__text"><span>Получайте актуальную информацию о всех скидках,
+								распродажах и новых, трендовых коллекциях</span>
+						</div>
+						<form class="newsletter-footer__form">
+							<input class="newsletter-footer__input" id="email" type="text" required autocomplete="off">
+							<label for="email">Введите ваш E-mail</label>
+							<button class="newsletter-footer__button" type="submit"><i
+									class='fas fa-chevron-right'></i></button>
+						</form>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__column column-footer">
+							<div class="column-footer__title">Полезные ссылки</div>
+							<ul class="column-footer__list">
+								<li><a href="#" class="column-footer__link">Каталог</a></li>
+								<li><a href="blog.html" class="column-footer__link">Блог</a></li>
+								<li><a href="brand.html" class="column-footer__link">О бренде</a></li>
+								<li><a href="#" class="column-footer__link">Калькулятор</a></li>
+								<li><a href="dimensions.html" class="column-footer__link">Размеры</a></li>
+								<li><a href="delivery.html" class="column-footer__link">Доставка и оплата<img
+											src="image/footer/delivery.svg" alt=""></a></li>
+								<li><a href="contacts.html" class="column-footer__link">Контакты</a></li>
+								<li><a href="certificates.html" class="column-footer__link">Подарочные сертификаты<img
+											src="image/footer/gift.svg" alt=""></a></li>
+								<li><a href="#" class="column-footer__link column-footer__link_red">Распродажа до
+										-40%</a></li>
+							</ul>
+						</div>
+						<div class="bottom-footer__column column-footer">
+							<input type="checkbox" id="categories">
+							<label for="categories" class="column-footer__title">Категории товаров <span
+									class='fas fa-chevron-down'></span></label>
+							<ul class="column-footer__list">
+								<li><a href="catalog.html" class="column-footer__link">Новая коллекция 2021</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Распродажа купальников</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Купальники для серфинга</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Лайкра для серфинга</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Слитные купальники</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Раздельные купальники</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Купальники с рукавами</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Купальники без рукавов</a></li>
+								<li><a href="catalog.html" class="column-footer__link">Купальники с чашечками</a></li>
+							</ul>
+						</div>
+						<div class="bottom-footer__column column-footer">
+							<input type="checkbox" id="looking">
+							<label for="looking" class="column-footer__title">Часто ищут <span
+									class='fas fa-chevron-down'></span></label>
+							<ul class="column-footer__list">
+								<li><a href="#" class="column-footer__link">Черные купальники с рукавами</a></li>
+								<li><a href="#" class="column-footer__link">Закрытые купальники с рукавами</a></li>
+								<li><a href="#" class="column-footer__link">Купальники с сеткой</a></li>
+								<li><a href="#" class="column-footer__link">Спортивные купальники для бассейна</a>
+								</li>
+								<li><a href="#" class="column-footer__link">Купальники с принтом</a></li>
+								<li><a href="#" class="column-footer__link">Купальники с закрытыми плечами</a></li>
+							</ul>
+						</div>
+						<div class="bottom-footer__column column-footer">
+							<div class="column-footer__title">Контактные данные</div>
+							<div class="column-footer__contacts contacts-footer">
+								<div class="contacts-footer__email"><a
+										href="mailto:zakaz@waveharmony.com">zakaz@waveharmony.com</a></div>
+								<div class="contacts-footer__phone"><a href="tel:88005113639">8 (800) 511-36-39</a>
+								</div>
+								<div class="contacts-footer__social social-contacts">
+									<ul class="social-contacts__list">
+										<li>
+											<a href="#" class="social-contacts__link">
+												<i class='fab fa-vk'></i></a>
+										</li>
+										<li>
+											<a href="#" class="social-contacts__link">
+												<svg class="whatsapp">
+													<use xlink:href="#icon-1"></use>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="social-contacts__link">
+												<i class='fab fa-facebook-f'></i></a>
+										</li>
+										<li>
+											<a href="#" class="social-contacts__link">
+												<i class='fab fa-instagram'></i></a>
+										</li>
+									</ul>
+								</div>
+								<div class="contacts-footer__info">
+									<p>Информация для покупателей</p>
+									<p>Wave Harmony - женская одежда для серфинга и любых других, водных видов спорта.
+									</p>
+									<p> Все права защищены. 2021</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Подключение иконок -->
+	<script src="https://kit.fontawesome.com/9e73be8edf.js" crossorigin="anonymous"></script>
+
+	<script src="js/ordering-page.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
