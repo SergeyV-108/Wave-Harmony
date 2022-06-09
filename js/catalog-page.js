@@ -66,7 +66,7 @@ noUiSlider.create(costRange, {
 	connect: true,
 	format: wNumb({
 		decimals: 0
-	})
+	}),
 	range: {
 		'min': 0,
 		'max': 10000
