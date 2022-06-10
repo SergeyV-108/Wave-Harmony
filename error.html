@@ -9,11 +9,6 @@
 	<!-- Инструкция для IE старой версии -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- Подключение стилей слайдера -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 	<link rel="stylesheet" href="css/style.css">
 
 	<title>Wave Harmony</title>
@@ -225,180 +220,36 @@
 
 		<main class="page">
 
-			<!-- blog-page-->
+			<!-- error-page-->
 
-			<section class="page__blog blog-page">
+			<div class="page__error error-page">
 				<div class="container">
-					<div class="blog-page__inner">
-						<nav class="blog-page__breadcrumbs breadcrumbs">
+					<div class="error-page__inner">
+						<nav class="error-page__breadcrumbs breadcrumbs">
 							<ul class="breadcrumbs__list">
 								<li><a href="index.html" class="breadcrumbs__link">Главная </a></li>
-								<li><span>/ Блог</span></li>
+								<li><span>/ Страница не найдена...</span></li>
 							</ul>
 						</nav>
-						<div class="blog-page__header header-blog">
-							<h1 class="header-blog__title section-title">Блог о серфинге</h1>
-							<div class="header-blog__filter filter-blog">
-								<div class="filter-blog__title"><i class="material-icons">filter_list</i>Фильтры</div>
-								<div class="filter-blog__btns">
-									<button type="button" class="filter-blog__btn" data-item=".all">Все</button>
-									<button type="button" class="filter-blog__btn" data-item=".spots">Споты</button>
-									<button type="button" class="filter-blog__btn" data-item=".boards">Доски</button>
-									<button type="button" class="filter-blog__btn" data-item=".people">Люди</button>
+						<div class="error-page__body body-error">
+							<div class="body-error__image">
+								<img src="image/page/error/img_404.jpg" alt="">
+							</div>
+							<div class="body-error__content">
+								<div class="body-error__title section-title">Упс...</div>
+								<div class="body-error__text">мы опросили каждого серфера на побережье, но никто из них
+									не знает куда уплыла эта страница</div>
+								<div class="body-error__btn"><a href="#">Перейти в каталог</a></div>
+								<div class="body-error__circle">
+									<span></span>
 								</div>
 							</div>
 						</div>
-						<div class="blog-page__items items-blog">
-							<div class="items-blog__item item-blog all people">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/1.jpg" alt="">
-									<span class="item-blog__num">06 май</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Модели занялись серфингом в нарисованных
-										купальниках</h2>
-									<div class="item-blog__text">Американские модели Йован Гонсалес, Тауйма Холл,
-										Кристин Ли и Морган Слиф занялись серфингом на одном из пля...</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Люди</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all spots">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/2.jpg" alt="">
-									<span class="item-blog__num">14 апрель</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Серфинг в России: Где ловить волну?</h2>
-									<div class="item-blog__text">Ловить волну по-русски – как это? Серфинг в России –
-										это калька с заокеанской экстремальной забавы или же увл...</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Споты</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="article_2.html">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all boards">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/3.jpg" alt="">
-									<span class="item-blog__num">09 апрель</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Разновидности досок для серфинга</h2>
-									<div class="item-blog__text">Серфинг является новым видом спорта для России, мест
-										для занятий немного, но экстремальные спортсмены не унывают, пытаясь
-										организовывать отды...</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Доски</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all spots">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/4.jpg" alt="">
-									<span class="item-blog__num">28 март</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">13 главных правил серфинга</h2>
-									<div class="item-blog__text">Правила серфинга, о которых стоит помнить каждому, от
-										новичка до профи</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Споты</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all spots">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/5.jpg" alt="">
-									<span class="item-blog__num">21 март</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Серфер онлайн: 7 полезных сайтов для серферов</h2>
-									<div class="item-blog__text">Предлагаем вашему вниманию несколько полезных порталов,
-										которые пригодятся каждому серферу</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Споты</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all people">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/6.jpg" alt="">
-									<span class="item-blog__num">02 март</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Пошив купальников по вашим меркам</h2>
-									<div class="item-blog__text">Мы знаем, что каждая девушка хочет быть неотразимой на
-										пляже, на волне или просто на отдыхe. Но, выбрать купаль...</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Люди</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="article_6.html">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all spots">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/7.jpg" alt="">
-									<span class="item-blog__num">30 февраль</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">5 интересных фактов о серфинге, про которые вы не знали
-									</h2>
-									<div class="item-blog__text">В 2011 году 13-кратным чемпионом по серфингу Гари
-										Саафедром был установлен мировой рекорд: самое длительное официальн...</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Споты</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-							<div class="items-blog__item item-blog all spots">
-								<div class="item-blog__image">
-									<img src="image/page/blog/items/8.jpg" alt="">
-									<span class="item-blog__num">04 январь</span>
-								</div>
-								<div class="item-blog__content">
-									<h2 class="item-blog__title">Лайфхак: как защищать себя от солнца</h2>
-									<div class="item-blog__text">Солнце и серфинг - мы научим вас совмещать приятное с
-										полезным без вреда для вашего здоровья</div>
-									<div class="item-blog__hashtags">
-										<a href="#" class="item-blog__hashtag">#Споты</a>
-										<a href="#" class="item-blog__hashtag">#2021</a>
-									</div>
-								</div>
-								<div class="item-blog__button"><a href="#">Читать</a></div>
-							</div>
-						</div>
-						<nav class="blog-page__pagination pagination-blog">
-							<ul class="pagination-blog__list">
-								<li><a href="#" class="pagination-blog__link"><i class='fas fa-chevron-left'></i></a>
-								</li>
-								<li><a href="#" class="pagination-blog__link active">1</a></li>
-								<li><a href="#" class="pagination-blog__link">2</a></li>
-								<li><a href="#" class="pagination-blog__link">3</a></li>
-								<li><span class="pagination-blog__link">...</span></li>
-								<li><a href="#" class="pagination-blog__link">6</a></li>
-								<li><a href="#" class="pagination-blog__link"><i class='fas fa-chevron-right'></i></a>
-								</li>
-							</ul>
-						</nav>
 					</div>
 				</div>
-			</section>
-
-			<!-- blog-page end -->
+			</div>
+			
+			<!-- error-page end -->
 
 		</main>
 
@@ -514,10 +365,6 @@
 	<!-- Подключение иконок -->
 	<script src="https://kit.fontawesome.com/9e73be8edf.js" crossorigin="anonymous"></script>
 
-	<!-- Подключение слайдера -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	
-	<script src="js/blog-page.js"></script>
 	<script src="js/app.js"></script>
 
 </body>
