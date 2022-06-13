@@ -9058,6 +9058,7 @@ body.lock {
   .catalog-page__header {
     width: 100vw;
     margin: 0 -20px;
+    padding: 0 20px;
   }
 }
 
