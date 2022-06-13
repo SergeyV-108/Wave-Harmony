@@ -8480,9 +8480,6 @@ body.lock {
   color: #2c2c2c;
 }
 
-.card-modal__form {
-}
-
 .card-modal__row {
   position: relative;
 }
@@ -12408,6 +12405,12 @@ body.lock {
   position: relative;
   display: inline-block;
   font-size: 28px;
+}
+
+@media (max-width: 375px) {
+  .rating-modal__box {
+    font-size: 22px;
+  }
 }
 
 .rating-modal__box::before {
