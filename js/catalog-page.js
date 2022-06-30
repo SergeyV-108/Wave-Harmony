@@ -159,7 +159,7 @@ function layoutGrid() {
 }
 
 // После загрузки страницы
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
 	changeGrid();
 	layoutGrid();
 });

@@ -25,7 +25,7 @@ for (let deliveryPageLabel of deliveryPageLabels) {
 	});
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
 	if (window.innerWidth > 1240) {
 		document.querySelector('.tab-delivery__label').click();
 	}

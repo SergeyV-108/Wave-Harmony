@@ -125,7 +125,7 @@ function showCatalogMenu() {
 }
 
 // После загрузки страницы
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
 	checkScroll();
 	replaceMenuLink();
 	showCatalogMenu();
